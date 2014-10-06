@@ -1,1 +1,34 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body {background-color: #fdfbf3; font-family: verdana; color: #787167;}
+
+#container {width: 600px; margin: auto; background-color: #51473d; background-image: url('pics/coffey.jpg');
+background-repeat: no-repeat; background-position: top 21px center; border: 1px solid #999;}
+
+#topbar {text-align:right; margin-top: 2px; font-style: italic; font-size: 10px; color: #eae7d2;}
+
+#menu {font-size: 12px; margin-left: 20px; width: 100%;}
+#menu a{visibility: hidden;}
+#menu ul li {margin-top: 200px; display:inline-block;}
+
+#menu ul li a {text-decoration: none; color: #EAE8D3; background-color: #787167; visibility: inherit;
+display: block; padding: 7px 16px;}
+
+#menu ul .active a {background-color: #eae7d2; color: #776d62;}
+#menu a:hover {background-color: #9c9084;}
+.active {margin-left: -48px;}
+a:link {color: #888177;}
+
+#content {background-color: #eae5d5;margin-top: -12px; padding: 15px;}
+
+#maincontent {width: 320px; float: left; padding-left: 10px; padding-right: 10px;}
+#maincontent h1 { font-family:"new times roman"; font-size: 26px; color: #766952;}
+#maincontent img {float: left; padding-right: 4px;}
+#maincontent p { font-size: 12px;}
+
+#subcontent {width: 210px;float: left; border-left: dashed 1px #b5b5d0; padding-left: 10px;} 
+#subcontent a {font-size: 12px;}
+#subcontent p {font-size: 10px; line-height: 18px;} 
+#subcontent h1 {font-family:"new times roman"; font-size: 18px; color: #766952;} 
+#subcontent h2 {font-family:"new times roman"; font-size:14px; color: #766952;} 
+#subcontent ul {list-style: none; padding-left: 0px; margin-top: -10px;} 
+
+#bottomcontent {clear: both; font-size: 10px; font-style: italic; padding-left: 10px; padding-bottom: 10px; color: #797066;}
